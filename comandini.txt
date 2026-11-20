@@ -1,0 +1,3 @@
+echo:
+	-e permette di avere \n \b \t ecc
+	-n toglie il ritorno a capo

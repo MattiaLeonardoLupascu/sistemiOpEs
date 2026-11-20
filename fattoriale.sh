@@ -1,0 +1,10 @@
+#!/bin/bash
+CONTATORE=1
+FATTORIALE=1
+while(("${CONTATORE}"<="$1"));
+do
+  ((FATTORIALE=${FATTORIALE}*${CONTATORE}))
+  ((CONTATORE=${CONTATORE}+1))
+done
+echo "${FATTORIALE}"
+
